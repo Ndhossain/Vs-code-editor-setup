@@ -1,0 +1,48 @@
+{
+  "files.autoSave": "afterDelay",
+  "workbench.colorTheme": "Andromeda Colorizer",
+  "workbench.iconTheme": "material-icon-theme",
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.triggerExpansionOnTab": true,
+  "eslint.lintTask.enable": true,
+  // editor setups
+  "editor.fontSize": 16,
+  "editor.fontFamily": "Fira Code, Operator Mono",
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.minimap.enabled": false,
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  //  code formatter
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.organizeImports": true
+  },
+  "eslint.alwaysShowStatus": true,
+  //terminal
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontWeight": "normal",
+"terminal.integrated.fontFamily": "Fira Code, Operator Mono",
+}
+
